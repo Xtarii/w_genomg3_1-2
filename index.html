@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Main Site</title>
+
+
+        <!-- Imports -->
+        <script src="main.js"></script>
+    </head>
+
+    <!-- Body -->
+    <body>
+        <fieldset>
+            <form onsubmit="return login()">
+                <p>Användarnamn: <input id="name" required></p>
+                <p id="ph">Lösenord: <input id="passwd" type="password" required></p>
+                <input type="submit" value="Logga in">
+            </form>
+        </fieldset>
+
+        <!-- Inlogning -->
+        <p id="lh"></p>
+
+
+        <!-- Embed Holder -->
+        <p id="embed"></p>
+    </body>
+</html>
